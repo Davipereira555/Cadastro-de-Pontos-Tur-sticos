@@ -1,0 +1,58 @@
+@import "global.css";
+@import "variables.css";
+@import "form.css";
+
+.tourist-attraction-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    margin: 48px 0 0px 130px;
+}
+
+.tourist-attraction-title {
+    margin-bottom: 32px;
+}
+
+.tourist-attraction-container-display {
+    margin: 60px 132px 190px 132px;
+}
+
+.tourist-attraction-container-display-title {
+    margin-bottom: 32px;
+}
+
+.tourist-attraction-display-cards {
+    justify-content: center;
+}
+
+.card {
+    display: inline-flex;
+    flex-direction: row;
+    width: 576px;
+    height: 212px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    margin: 0 24px 16px 0;
+}
+
+.card-image {
+    width: 288px;
+    height: 212px;
+}
+
+.card-text-wrapper {
+    margin: 24px;
+    width: 240px;
+    height: 164px;
+}
+
+.card-title {
+    width: 240px;
+    height: 60px;
+    font-size: 1.5rem;
+    line-height: 28px;
+}
+
+.card-description {
+    width: 240px;
+    height: 96px;
+}

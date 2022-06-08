@@ -1,0 +1,81 @@
+.tourist-attraction-form-input {
+    display: flex;
+    margin-bottom: 18px;
+    flex-direction: row;
+}
+
+.tourist-attraction-image-wrapper {
+    position: relative;
+    display: block;
+}
+
+.tourist-attraction-form-image {
+    display: block;
+    cursor: pointer;
+    width: 288px;
+    height: 212px;
+    border: 2px solid #e5e5e5;
+    border-radius: 8px;
+    text-align: center;
+    margin-right: 16px;
+    padding: 94px 114px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.open-file {
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.tourist-attraction-title-desc-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 416px;
+    flex: 1px;
+}
+
+.tourist-attraction-form-title {
+    width: 328px;
+    height: 56px;
+    border: 2px solid #e5e5e5;
+    border-radius: 4px;
+    margin: 4px 0 16px 0;
+    padding: 16px 0px 16px 16px;
+}
+
+.tourist-attraction-form-description {
+    width: 416px;
+    height: 136px;
+    border: 2px solid #e5e5e5;
+    border-radius: 4px;
+    padding: 38px 0px 72px 20px;
+}
+
+.tourist-attraction-form-button-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 722px;
+}
+
+.tourist-attraction-submit-button {
+    width: 121px;
+    height: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 20px;
+    border: 1px solid;
+    border-radius: 8px;
+    transition: background-color 0.2s linear;
+}
+
+.tourist-attraction-submit-button:hover {
+    background-color: var(--vermelho-escuro);
+}
+
+.tourist-attraction-submit-button:active {
+    background-color: var(--vermelho-claro);
+}

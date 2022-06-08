@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/media.css">
+    
+    <title>Pontos Turísticos</title>
+</head>
+<body>
+    <main>
+        <!--adcionar pontos turísticos-->
+        <section class="tourist-attraction-container">
+            <h2 class="tourist-attraction-title">
+                Adicionar um Ponto Turístico
+            </h2>
+            <form class="tourist-attraction-form">
+                <div class="tourist-attraction-form-input">
+                    <div class="tourist-attraction-image-wrapper">
+                        <label class="tourist-attraction-form-image" for="image-search">
+                            Imagem
+                        </label>
+                        <input class="open-file" type="file" id="image-search" accept="image/png, image/jpeg" />
+                    </div>
+
+                    <div class="tourist-attraction-title-desc-wrapper">
+                        <input class="tourist-attraction-form-title" id="title" type="text" placeholder="Titulo" />
+                        <input class="tourist-attraction-form-description" id="description" type="text" placeholder="Descrição" />
+                    </div>
+                </div>
+                <div class="tourist-attraction-form-button-wrapper">
+                    <button class="tourist-attraction-submit-button" type="submit">Adicionar</button>
+                </div>
+            </form>
+        </section>
+        <!--pontos turísticos-->
+        <section class="tourist-attraction-container-display">
+            <h2 class="tourist-attraction-container-display-title">
+                Pontos Turísticos
+            </h2>
+            <div class="tourist-attraction-display-cards">
+                <div class="card">
+                    <img class="card-image image-desktop" src="./assets/images/pao-de-acucar-desktop.png" />
+                    <img class="card-image image-mobile" src="./assets/images/pao-de-acucar-mobile.png" />
+                    <div class="card-text-wrapper">
+                        <h2 class="card-title">
+                            Pão de Açúcar
+                        </h2>
+                        <p class="card-description">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor dosa amet sint. Velit officia consece duis enim velit mollit.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-image image-desktop" src="./assets/images/ilha-grande-desktop.png" />
+                    <img class="card-image image-mobile" src="./assets/images/ilha-grande-mobile.png" />
+                    <div class="card-text-wrapper">
+                        <h2 class="card-title">
+                            Ilha Grande
+                        </h2>
+                        <p class="card-description">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor dosa amet sint. Velit officia consece duis enim velit mollit.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-image image-desktop" src="./assets/images/cristo-redentor-desktop.png" />
+                    <img class="card-image image-mobile" src="./assets/images/cristo-redentor-mobile.png" />
+                    <div class="card-text-wrapper">
+                        <h2 class="card-title">
+                            Cristo Redentor
+                        </h2>
+                        <p class="card-description">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor dosa amet sint. Velit officia consece duis enim velit mollit.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-image image-desktop" src="./assets/images/centro-historico-de-paraty-desktop.png" />
+                    <img class="card-image image-mobile" src="./assets/images/centro-historico-de-paraty-mobile.png" />
+                    <div class="card-text-wrapper">
+                        <h2 class="card-title">
+                            Cenntro Histórico de Paraty
+                        </h2>
+                        <p class="card-description">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor dosa amet sint. Velit officia consece duis enim velit mollit.
+                        </p>
+                    </div>
+                </div>
+                <ul id="items"></ul>
+            </div>
+        </section>
+    </main>
+    <!--roda pé-->
+    <footer></footer>
+
+    <!--javascript-->
+    <script src="./scripts/app.js"></script>
+
+</body>
+</html>

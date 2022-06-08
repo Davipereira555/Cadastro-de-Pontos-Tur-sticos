@@ -1,0 +1,194 @@
+@media screen and (min-width: 1111px) {
+    .tourist-attraction-display-cards {
+        display: grid;
+        justify-content: start;
+        grid-template-columns: repeat(2, max-content);
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1110px) {
+    .tourist-attraction-display-cards {
+        display: grid;
+        justify-content: start;
+        grid-template-columns:1fr 1fr;
+    }
+
+    .card {
+        width: 470px;
+        height: 212px;
+    }
+
+    .card-image {
+        width: 215px;
+    }
+
+    .card-description {
+        width: 215px;
+    }
+}
+
+@media screen and (min-width: 880px) {
+    .image-desktop {
+        display: block;
+    }
+    
+    .image-mobile {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 850px) and (max-width: 879px) {
+    .image-desktop {
+        display: none;
+    }
+
+    .image-mobile {
+        display: block;
+    }
+
+    .tourist-attraction-form-title {
+        width: 300px;
+    }
+
+    .tourist-attraction-form-description {
+        width: 328px;
+    }
+
+    .tourist-attraction-form-button-wrapper {
+        max-width: 634px;
+    }
+}
+
+@media screen and (max-width: 849px) {
+    .image-desktop {
+        display: none;
+    }
+
+    .image-mobile {
+        display: block;
+    }
+
+    .tourist-attraction-form-title {
+        width: 300px;
+    }
+
+    .tourist-attraction-form-description {
+        width: 328px;
+    }
+
+    .tourist-attraction-form-button-wrapper {
+        max-width: 634px;
+    }
+
+    .tourist-attraction-container-display-title {
+        margin: 0 66px 32px 26px;
+    }
+
+    .card {
+        display: inline-flex;
+        flex-direction: column;
+        width: 343px;
+        height: 424px;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+        border-radius: 8px;
+        margin: 0 16px 24px 16px;
+        align-items: center;
+    }
+
+    .card-image {
+        width: 343px;
+    }
+
+    .card-text-wrapper {
+        margin: 24px;
+        width: 240px;
+        height: 164px;
+    }
+}
+
+@media screen and (max-width: 784px) {
+    .tourist-attraction-container {
+        margin: 16px 16px 0px 160px;
+    }
+
+    .tourist-attraction-container-display {
+        margin: 68px 16px 190px 160px;
+    }
+
+    .tourist-attraction-form-input {
+        margin-bottom: 8px;
+    }
+
+    .tourist-attraction-form {
+        width: 343px;
+        height: 500px;
+    }
+
+    .tourist-attraction-form-input {
+        flex-direction: column;
+    }
+
+    .tourist-attraction-container-display {
+        margin-top: 68px;
+    }
+
+    .tourist-attraction-title-desc-wrapper {
+        width: 100%;
+    }
+
+    .tourist-attraction-form-title {
+        width: 343px;
+        margin: 16px 0;
+    }
+
+    .tourist-attraction-form-description {
+        width: 343px;
+    }
+
+    .tourist-attraction-form-button-wrapper {
+        width: 100%;
+    }
+
+    .tourist-attraction-submit-button {
+        flex: 1;
+    }
+}
+
+@media screen and (max-width: 419px) {
+    .tourist-attraction-container {
+        margin: 16px 16px 0px 16px;
+    }
+
+    .tourist-attraction-container-display {
+        margin: 68px 16px 190px 16px;
+    }
+}
+
+@media screen and (min-width: 580px) and (max-width: 640px) {
+    .tourist-attraction-container {
+        margin: 16px 16px 0px 130px;
+    }
+
+    .tourist-attraction-container-display {
+        margin: 68px 16px 190px 130px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 579px) {
+    .tourist-attraction-container {
+        margin: 16px 16px 0px 90px;
+    }
+
+    .tourist-attraction-container-display {
+        margin: 68px 16px 190px 90px;
+    }
+}
+
+@media screen and (min-width: 420px) and (max-width: 479px) {
+    .tourist-attraction-container {
+        margin: 16px 16px 0px 30px;
+    }
+
+    .tourist-attraction-container-display {
+        margin: 68px 16px 190px 30px;
+    }
+}
